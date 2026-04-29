@@ -7,6 +7,7 @@ public class IntegerDemo : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //Signed Integer (부호(±)가 있는 정수형 데이터 형식)
         sbyte iSbyte = 127;
         short iInt16 = 32767;
         int iInt32 = 2147483647;
@@ -16,6 +17,8 @@ public class IntegerDemo : MonoBehaviour
         Debug.Log("iInt16" + iInt16);
         Debug.Log("iInt32" + iInt32);
         Debug.Log("iInt64" + iInt64);
+
+        //UnSignedInteger (부호(±)가 없는 정수형 데이터 형식)
     }
 }
 
@@ -40,7 +43,7 @@ public class IntegerDemo : MonoBehaviour
  */
 
 /*
-1sbyte: 8bit
+1Byte: 8bit
 1bit: 0 또는 1 데이터를 저장하는 최소 단위
 8bit: 2^8 = 256가지의 서로 다른 값을 표현할 수 있음
 
@@ -63,7 +66,9 @@ public class IntegerDemo : MonoBehaviour
 0000 1111 : 15
 
 
+sbyte: -128 ~ 127
 
+byte: 0 ~ 255
 
 
 
