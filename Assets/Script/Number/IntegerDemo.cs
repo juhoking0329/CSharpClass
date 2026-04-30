@@ -19,6 +19,15 @@ public class IntegerDemo : MonoBehaviour
         Debug.Log("iInt64" + iInt64);
 
         //UnSignedInteger (부호(±)가 없는 정수형 데이터 형식)
+        byte iByte = 255;
+        ushort iUInt16 = 65535;
+        uint iUInt32 = 4294967295;
+        ulong iUInt64 = 18446744073709551615;
+
+        Debug.Log("iByte" + iByte);
+        Debug.Log("iUInt16" + iUInt16);
+        Debug.Log("iUInt32" + iUInt32);
+        Debug.Log("iUInt64" + iUInt64);
     }
 }
 

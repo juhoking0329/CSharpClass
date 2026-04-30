@@ -11,7 +11,7 @@ public class DoubleDemo : MonoBehaviour
         Debug.Log(f);
 
         //[2] double 형 변수 선언하고 초기화하기
-        double d = 3.141592d;
+        double d = 3.141592;    //또는 d;
         Debug.Log(d);
 
         //[3] decimal 형 변수 선언하고 초기화하기

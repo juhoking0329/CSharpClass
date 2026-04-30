@@ -32,6 +32,7 @@ public class TypeConversionNote : MonoBehaviour
         S = D.ToString();   //숫자를 문자열로 형식변환하기
         Debug.Log($"형식변환: {S}");
 
+        //s에 i값 저장하기
         S = I.ToString();
         Debug.Log($"형식변환: {S}");
     }
