@@ -1,3 +1,4 @@
+
 using UnityEngine;
 
 public class SwitchDemo : MonoBehaviour
@@ -17,9 +18,11 @@ public class SwitchDemo : MonoBehaviour
             case 1:
                 Debug.Log($"{num}은 1입니다");
                 break;
-
             case 2:
                 Debug.Log($"{num}은 2입니다");
+                break;
+            default:
+                Debug.Log(" ");
                 break;
         }
     }

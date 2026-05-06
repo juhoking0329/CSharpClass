@@ -1,6 +1,7 @@
 using UnityEngine;
 
 //변수(Variable) : 프로그램에서 사용할 데이터를 저장하는 공간
+//변수 선언 : 데이터타입 변수이름
 public class VariableNote : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
