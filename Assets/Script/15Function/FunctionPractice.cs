@@ -31,6 +31,8 @@ public class FunctionPractice : MonoBehaviour
     //더하기
     int Add(int num1, int num2)
     {
+        /*int add = num1 + num2;
+        return add;*/
         return num1 + num2;
     }
 
@@ -39,6 +41,9 @@ public class FunctionPractice : MonoBehaviour
     {
         return num1 - num2;
     }
+
+    //화살표 함수
+    /*int Sub(int num1, int num2) => num1 - num2;*/
 
     //곱하기
     int Multiply(int num1, int num2)
