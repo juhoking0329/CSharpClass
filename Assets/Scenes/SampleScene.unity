@@ -1032,6 +1032,8 @@ GameObject:
   - component: {fileID: 1575394586}
   - component: {fileID: 1575394585}
   - component: {fileID: 1575394584}
+  - component: {fileID: 1575394589}
+  - component: {fileID: 1575394590}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -1046,13 +1048,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1575394583}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: de738d6c298acd24f865570875e62e59, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FunctionPractice
-  a: 15
-  b: 0
+  a: 5
+  b: 3
 --- !u!136 &1575394585
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1148,6 +1150,30 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1575394589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575394583}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b3b670a94961148b3a3740cd2377c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DefaultParameter
+--- !u!114 &1575394590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575394583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c3ca870b8fffc942bd25a40e9b26d51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MethodOverload
 --- !u!1 &1766674011
 GameObject:
   m_ObjectHideFlags: 0
