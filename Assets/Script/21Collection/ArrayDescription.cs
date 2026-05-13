@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-//컬렉션(Collect) : 배열처럼 관련 객체의 그룹을 만들고 관리하는 데이터 구조들을 컬렉션이라고 한다.
 //배열, 리스트, 딕셔너리, ...
 public class ArrayDescription : MonoBehaviour
 {
@@ -52,5 +51,18 @@ foreach ((컬렉션의 데이터타입) 변수명 in 컬렉션 변수)
 
 
 
+//변수(Variable) : 프로그램에서 사용할 데이터를 저장해 놓는 그릇, 하나
+//Array(배열) : 하나의 이름으로 같은 데이터 형식을 여러개 보관해 놓는 그릇, 복수(같은 데이터 형식)
+//데이터 형식 : int, long, bool, float, double, string, char
+//변수 선언시 : (데이터 형식) 변수이름;
+//배열 선언 : 데이터형식[] 변수이름;
+
+//사용자 정의 데이터 형식 : 개발자가 만든 데이터 형식
+//구조체(Struct) : 하나의 이름으로 서로 다른 형식의 데이터들과 함수들을 묶어 관리하는 데이터 구조
+//Enum (열거형, Enumeration) : 하나의 이름으로 서로 관련있는 정수 값을 갖는 상수들의 집합
+//클래스(Class) : 하나의 이름으로 서로 다른 형식의 데이터들과 함수들을 묶어 관리하는 데이터 구조
+//닷넷에서 사용하는 기본 구문
+
+//컬렉션(Collect) : 배열처럼 관련 객체의 그룹을 만들고 관리하는 데이터 구조들을 컬렉션이라고 한다.
 
 */
